@@ -1,10 +1,18 @@
-# 🔐 ZIP & RAR Brute Force Tool
+<h1 align="center">🔐 ZIP & RAR Brute Force Tool</h1>
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue" alt="Python Version">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey" alt="Platform">
+</p>
 
-Tool sederhana namun powerful untuk melakukan **brute-force password** terhadap file **.zip** dan **.rar** menggunakan wordlist. Cocok untuk keperluan **CTF**, **pengujian keamanan**, atau sekadar **pemulihan file pribadi yang lupa password**.
+
+<p align="center">
+  Tool sederhana namun powerful untuk melakukan <strong>brute-force password</strong> terhadap file <code>.zip</code> dan <code>.rar</code> menggunakan wordlist.<br>
+  Cocok untuk keperluan <strong>CTF</strong>, <strong>pengujian keamanan</strong>, atau sekadar <strong>pemulihan file pribadi yang lupa password</strong>.
+</p>
+
+<hr>
 
 ---
 
