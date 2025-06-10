@@ -12,7 +12,6 @@
   Cocok untuk keperluan <strong>CTF</strong>, <strong>pengujian keamanan</strong>, atau sekadar <strong>pemulihan file pribadi yang lupa password</strong>.
 </p>
 
-<hr>
 
 ---
 
