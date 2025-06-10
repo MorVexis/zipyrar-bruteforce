@@ -33,7 +33,7 @@ pip install pyzipper rarfile tqdm multiprocess
 Format Perintah:
 
 ```bash
-python bruteforce.py -f <file.zip/rar> -w <wordlist.txt> -t <jumlah_threads>
+python brutezipyrar.py -f <file.zip/rar> -w <wordlist.txt> -t <jumlah_threads>
 ```
 
 Parameter:
@@ -50,13 +50,13 @@ Argumen	Keterangan
 Brute Force ZIP File :
 
 ```bash
-python bruteforce.py -f dokumen.zip -w wordlist.txt -t 4
+python brutezipyrar.py -f dokumen.zip -w wordlist.txt -t 4
 ```
 
 Brute Force RAR File :
 
 ```bash
-python bruteforce.py -f arsip.rar -w rockyou.txt -t 6
+python brutezipyrar.py -f arsip.rar -w rockyou.txt -t 6
 ```
 
 ---
@@ -93,7 +93,7 @@ Jika file tidak didukung:
 
 ```bash
 .
-├── bruteforce.py     # Main script
+├── brutezipyrar.py     # Main script
 ├── wordlist.txt      # Contoh wordlist
 ├── dokumen.zip       # Contoh file zip
 ```
