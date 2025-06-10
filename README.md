@@ -1,19 +1,26 @@
-# 🔐 ZIP & RAR Bruteforce Tool
+# 🔐 ZIP & RAR Brute Force Tool
 
-Sebuah script Python sederhana untuk melakukan bruteforce terhadap file ZIP dan RAR menggunakan wordlist. Tool ini mendukung multi-threading dan menampilkan progress bar saat berjalan.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey)
 
-## 📦 Fitur
-
-- Mendukung file **ZIP** (AES) dan **RAR**
-- Menampilkan **progress bar** dengan estimasi waktu
-- Mendukung **multi-threading** (dengan `multiprocessing.Pool`)
-- Menampilkan total percobaan dan waktu eksekusi
+Tool sederhana namun powerful untuk melakukan **brute-force password** terhadap file **.zip** dan **.rar** menggunakan wordlist. Cocok untuk keperluan **CTF**, **pengujian keamanan**, atau sekadar **pemulihan file pribadi yang lupa password**.
 
 ---
 
-## 🛠️ Instalasi
+## ✨ Fitur
 
-Pastikan Python sudah terinstal. Lalu, install dependency dengan:
+- ✅ Dukungan untuk file **ZIP** dan **RAR**
+- 🚀 Proses paralel menggunakan **multiprocessing**
+- 📊 Tampilkan progress bar dengan estimasi waktu (`tqdm`)
+- ⏱️ Hitung total waktu eksekusi dan jumlah percobaan
+- 💥 Otomatis berhenti saat password ditemukan
+
+---
+
+## 🧑‍💻 Dependencies
+
+Pastikan kamu telah menginstal Python 3.8+ dan module berikut:
 
 ```bash
-pip install pyzipper rarfile tqdm
+pip install pyzipper rarfile tqdm multiprocess
